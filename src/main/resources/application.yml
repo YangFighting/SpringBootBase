@@ -1,6 +1,9 @@
 server:
   port: 8080
 
+spring:
+  profiles:
+    active: prod
 
 person:
   lastName: hello
@@ -14,3 +17,19 @@ person:
   dog:
     name: 小狗
     age: 12
+
+
+
+---
+spring:
+  profiles: dev
+
+server:
+  port: 8081
+
+---
+spring:
+  profiles: prod
+
+server:
+  port: 8082
