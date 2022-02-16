@@ -1,5 +1,6 @@
 package com.yang.springbootbase;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import com.yang.springbootbase.bean.Person;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -8,6 +9,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
+
+import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 @SpringBootTest
 class SpringbootbaseApplicationTests {
@@ -19,6 +24,9 @@ class SpringbootbaseApplicationTests {
 
     @Autowired
     ApplicationContext ioc;
+
+    @Autowired
+    DataSource dataSource;
 
     @Test
     void contextLoads() {
@@ -36,6 +44,18 @@ class SpringbootbaseApplicationTests {
     void testHelloService(){
         boolean containsBean = ioc.containsBean("helloService");
         System.out.println("containsBean: " + containsBean);
+
+    }
+
+    @Test
+    void testJdbc() throws SQLException {
+        logger.info("dataSource: {}", dataSource.getClass().getName());
+        Connection connection = dataSource.getConnection();
+        logger.info("connection: {}", connection.toString());
+        DruidDataSource druidDataSource = (DruidDataSource) dataSource;
+        logger.info("druidDataSource maxActive 数据源最大连接数: {}", druidDataSource.getMaxActive());
+        logger.info("druidDataSource initialSize 数据源初始化连接数: {}", druidDataSource.getInitialSize());
+
 
     }
 
