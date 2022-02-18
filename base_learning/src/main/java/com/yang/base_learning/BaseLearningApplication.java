@@ -1,13 +1,13 @@
-package com.yang.springbootbase;
+package com.yang.base_learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootbaseApplication {
+public class BaseLearningApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootbaseApplication.class, args);
+        SpringApplication.run(BaseLearningApplication.class, args);
     }
 
 }

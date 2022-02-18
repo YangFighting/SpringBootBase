@@ -1,0 +1,27 @@
+2022-02-18 21:56:26.696  INFO 20300 --- [main] c.y.b.BaseLearningApplicationTests       : Starting BaseLearningApplicationTests using Java 1.8.0_202 on A014095-NC03 with PID 20300 (started by zhangyang03 in E:\project_java\SpringBootBase\base_learning)
+2022-02-18 21:56:26.698  INFO 20300 --- [main] c.y.b.BaseLearningApplicationTests       : No active profile set, falling back to default profiles: default
+2022-02-18 21:56:26.761  WARN 20300 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 29:13]
+2022-02-18 21:56:26.762  WARN 20300 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 22:13]
+2022-02-18 21:56:30.006  INFO 20300 --- [main] c.y.b.BaseLearningApplicationTests       : Started BaseLearningApplicationTests in 4.146 seconds (JVM running for 6.385)
+2022-02-18 21:56:30.518  INFO 20300 --- [main] c.y.b.BaseLearningApplicationTests       : --- info 日志---
+2022-02-18 21:56:30.518  WARN 20300 --- [main] c.y.b.BaseLearningApplicationTests       : --- warn 日志---
+2022-02-18 21:56:30.519 ERROR 20300 --- [main] c.y.b.BaseLearningApplicationTests       : --- error 日志---
+2022-02-18 21:56:30.554  INFO 20300 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-02-18 21:56:43.089  INFO 21596 --- [main] c.y.b.BaseLearningApplicationTests       : Starting BaseLearningApplicationTests using Java 1.8.0_202 on A014095-NC03 with PID 21596 (started by zhangyang03 in E:\project_java\SpringBootBase\base_learning)
+2022-02-18 21:56:43.091  INFO 21596 --- [main] c.y.b.BaseLearningApplicationTests       : No active profile set, falling back to default profiles: default
+2022-02-18 21:56:43.158  WARN 21596 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 29:13]
+2022-02-18 21:56:43.159  WARN 21596 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 22:13]
+2022-02-18 21:56:46.509  INFO 21596 --- [main] c.y.b.BaseLearningApplicationTests       : Started BaseLearningApplicationTests in 4.263 seconds (JVM running for 6.469)
+2022-02-18 21:56:46.982  INFO 21596 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-02-18 21:56:56.872  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : Starting BaseLearningApplicationTests using Java 1.8.0_202 on A014095-NC03 with PID 26912 (started by zhangyang03 in E:\project_java\SpringBootBase\base_learning)
+2022-02-18 21:56:56.874  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : No active profile set, falling back to default profiles: default
+2022-02-18 21:56:56.943  WARN 26912 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 29:13]
+2022-02-18 21:56:56.943  WARN 26912 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 22:13]
+2022-02-18 21:57:00.182  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : Started BaseLearningApplicationTests in 4.2 seconds (JVM running for 6.291)
+2022-02-18 21:57:00.690  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : dataSource: com.alibaba.druid.pool.DruidDataSource
+2022-02-18 21:57:00.901  INFO 26912 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-02-18 21:57:03.421  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : connection: com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6f6f1d
+2022-02-18 21:57:03.422  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : druidDataSource maxActive 数据源最大连接数: 20
+2022-02-18 21:57:03.422  INFO 26912 --- [main] c.y.b.BaseLearningApplicationTests       : druidDataSource initialSize 数据源初始化连接数: 0
+2022-02-18 21:57:03.456  INFO 26912 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-02-18 21:57:03.459  INFO 26912 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

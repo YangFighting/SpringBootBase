@@ -1,4 +1,4 @@
-package com.yang.springbootbase.bean;
+package com.yang.base_learning.bean;
 
 public class Dog {
     private String name;

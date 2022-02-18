@@ -1,7 +1,8 @@
-package com.yang.springbootbase;
+package com.yang.base_learning;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.yang.springbootbase.bean.Person;
+import com.yang.base_learning.bean.Person;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -15,7 +16,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 @SpringBootTest
-class SpringbootbaseApplicationTests {
+class BaseLearningApplicationTests {
 
     Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -41,7 +42,7 @@ class SpringbootbaseApplicationTests {
     }
 
     @Test
-    void testHelloService(){
+    void testHelloService() {
         boolean containsBean = ioc.containsBean("helloService");
         System.out.println("containsBean: " + containsBean);
 

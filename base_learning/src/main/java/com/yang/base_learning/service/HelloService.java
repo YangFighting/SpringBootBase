@@ -1,4 +1,4 @@
-package com.yang.springbootbase.service;
+package com.yang.base_learning.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.yang.springbootbase.bean;
+package com.yang.base_learning.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -11,8 +11,7 @@ import java.util.Map;
 /**
  * ConfigurationProperties: 将本类的所有属性和配置文件关联
  * 默认从全局配置文件中获取
- *
- * */
+ */
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
