@@ -11,6 +11,10 @@ public class HelloService {
     @Autowired
     private HelloProperties helloProperties;
 
+    public HelloProperties getHelloProperties() {
+        return helloProperties;
+    }
+
     public String sayHello(String userName){
         return helloProperties.getPrefix() + ": " + userName + " > " + helloProperties.getSuffix();
     }
